@@ -36,7 +36,7 @@ More Examples:
  - test: (adding missing tests, refactoring tests; no production code change)
  - chore: (updating grunt tasks etc; no production code change)
  - ci: (ops related to ci)
- - perf:
+ - perf: Update code performances
 
 EOF
 exit 1
