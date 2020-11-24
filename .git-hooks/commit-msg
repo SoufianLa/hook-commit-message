@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-commit_msg_type_regex='feat|fix|refactor|style|test|docs|build|chore|ci|perf'
+commit_msg_type_regex='feat|fix|refactor|style|test|docs|build|chore|ci|perf|merge'
 commit_msg_scope_regex='.{1,20}'
 commit_msg_subject_regex='.{1,100}'
 commit_msg_regex="^(${commit_msg_type_regex})(\(${commit_msg_scope_regex}\))?: (${commit_msg_subject_regex})\$"
@@ -37,6 +37,7 @@ More Examples:
  - chore: (updating grunt tasks etc; no production code change)
  - ci: (ops related to ci)
  - perf: Update code performances
+ - merge: merge branches
 
 EOF
 exit 1
